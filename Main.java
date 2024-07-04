@@ -49,11 +49,11 @@ public class Main {
         int num1 = in.nextInt();
         System.out.print("Enter number2: ");
         int num2 = in.nextInt();
-
+        int sum = num1;
         for (int i = 1; i < num2; i++) {
-            num1 *= num1;
+            sum *= num1;
         }
-        System.out.println(num1);
+        System.out.println(sum);
         System.out.println("---------------------------------------");
         //Ex5
 
